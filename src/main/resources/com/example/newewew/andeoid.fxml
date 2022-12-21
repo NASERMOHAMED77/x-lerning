@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: BFEAF5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newewew.SceneController">
+   <children>
+      <Accordion layoutX="-1.0" prefHeight="600.0" prefWidth="1000.0">
+         <panes>
+            <TitledPane animated="false" text="Flutter">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Accordion layoutX="-1.0" layoutY="-6.0" prefHeight="554.0" prefWidth="1000.0" style="-fx-background-color: BFEAF5;">
+                          <panes>
+                            <TitledPane animated="false" text="Dart">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                                       <children>
+                                          <ImageView fitHeight="45.0" fitWidth="63.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/l.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="98.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <ImageView fitHeight="168.0" fitWidth="300.0" layoutX="57.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/dartpng.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Line endX="2.0" endY="-85.0" layoutX="448.0" layoutY="236.0" startX="2.0" startY="186.0" />
+                                          <Text layoutX="474.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dart is a programming language developed by Google, and the Flutter SDK (Software Development Kit) builds apps using the Dart programming language. If you have prior experience with Dart programming languages, learning Flutter will be easier for you. Otherwise, you can cover the following concepts from Dart:Data types and variablesOperatorsControl flow statementFunctionClassesListsMapAsync" wrappingWidth="501.0">
+                                             <font>
+                                                <Font name="System Bold" size="21.0" />
+                                             </font>
+                                          </Text>
+                                          <Button layoutX="800.0" layoutY="451.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: BFEAF5;" text="&lt; Back To Welcome Screen">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </TitledPane>
+                              <TitledPane animated="false" text="Flutter">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                                       <children>
+                                          <ImageView fitHeight="45.0" fitWidth="63.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/l.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="98.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <ImageView fitHeight="168.0" fitWidth="300.0" layoutX="86.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/Google-flutter-logo.svg.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Line endX="2.0" endY="-85.0" layoutX="448.0" layoutY="236.0" startX="2.0" startY="186.0" />
+                                          <Text layoutX="474.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flutter is an open-source mobile SDK (Software Development Kit) created by Google to build native applications for android, iOS, web, desktop, and embedded devices from a single codebase.You can cover the following concepts from Flutter:WidgetsLayoutsForms &amp; GestureAnimationRoutingState managementDatabase conceptsREST API" wrappingWidth="501.0">
+                                             <font>
+                                                <Font name="System Bold" size="21.0" />
+                                             </font>
+                                          </Text>
+                                          <Button layoutX="800.0" layoutY="437.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: BFEAF5;" text="&lt; Back To Welcome Screen">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane animated="false" text="Guide">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                                       <children>
+                                          <ImageView fitHeight="45.0" fitWidth="63.0" layoutX="28.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/l.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Text layoutX="98.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                          </Text>
+                                          <ImageView fitHeight="168.0" fitWidth="300.0" layoutX="53.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@images/ab.jpeg" />
+                                             </image>
+                                          </ImageView>
+                                          <Line endX="2.0" endY="-85.0" layoutX="297.0" layoutY="152.0" startX="2.0" startY="186.0" />
+                                          <Text layoutX="40.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Abdullah Mansour " wrappingWidth="195.0">
+                                             <font>
+                                                <Font name="System Bold" size="21.0" />
+                                             </font>
+                                          </Text>
+                                          <Button layoutX="791.0" layoutY="437.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: BFEAF5;" text="&lt; Back To Welcome Screen">
+                                             <font>
+                                                <Font name="System Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                          <Text layoutX="343.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IT Entrepreneur Lead of EngineersSoftware InstructorMore than 50k student around the world" wrappingWidth="448.0">
+                                             <font>
+                                                <Font name="System Bold" size="21.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                          </panes>
+                        </Accordion>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Kotlin">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                     <children>
+                        <Button layoutX="800.0" layoutY="508.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: BFEAF5;" text="&lt; Back To Welcome Screen">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="201.0" fitWidth="260.0" layoutX="33.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Kotlin-logo.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="357.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The app development language is a beginner-friendly language, and beginners find it easy to start learning by themselves. If you know Python or Java then it is an added advantage to learn it quickly.Anyway, to start with, you must consider the following prerequisites to learn it efficiently:Basic knowledge of programming languages, their working, and functionality.Ability to understand the app development environmentFamiliarity with Android and iOS (for mobile app development).A basic understanding of web development, especially database knowledge is required.Now, if you are ready to move forward with your endeavor of learning it, the next buzz is to start learning IDEs so that you can conveniently start with real-time app development.In general,  while working with app development, IDE provides a source-code editor offering a better option with a debugger and a compiler It has various advanced features, such as syntax highlighting, auto code completion, and code refactoring. IntelliJ IDEA, Eclipse IDE, and Coding Rooms are three common the most common IDEs used" wrappingWidth="614.179928414097">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Text>
+                        <Line endX="-6.0" endY="-170.0" layoutX="308.0" layoutY="221.0" startX="-6.0" startY="263.0" />
+                        <ImageView fitHeight="45.0" fitWidth="63.0" layoutX="46.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/l.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="104.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+         </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

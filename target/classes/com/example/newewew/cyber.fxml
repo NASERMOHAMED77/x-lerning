@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newewew.SceneController">
+   <children>
+      <Accordion prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: BFEAF5;">
+         <panes>
+            <TitledPane animated="false" text="Networks">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                     <children>
+                        <ImageView fitHeight="47.0" fitWidth="64.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/l.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="85.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="219.0" fitWidth="391.0" layoutX="65.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/network.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="-10.0" endY="-73.0" layoutX="473.0" layoutY="260.0" startX="-10.0" startY="133.0" />
+                        <Text layoutX="523.0" layoutY="204.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="لابد من تعلم الشبكات فكل شيء أصبح الآن مرتبط بالإنترنت لذلك من المتوجب عليك معرفة كيف تعمل الشبكات  كالبروتوكولات والـ OSI Model و ما هو الـ IP Address و ما هي الـ Ports الخ وكثير من المعلومات التي ستحصل عليها في هذه الدورات التي ستتعلم منها :CompTIA Network+ الموقع الرسمي الخاص بها بالنسبة للمصادر المجانية  شرح كورس الشبكات Comptia Network Plus بالتفصيل | N10-006CompTIA N10-008 Network+ Training CourseCCNA الموقع الرسمي الخاص بها بالنسبة للمصادر المجانية[AR] Cisco CCNA 200-301 - Complete Arabic Course || المنهاج العربي الكاملFree CCNA 200-301 | Complete Course 2022" textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="804.0" layoutY="438.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="86.0" prefWidth="180.0" style="-fx-background-color: BFEAF5;" text="&lt;Back To Welcome Screen">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Programming">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                     <children>
+                        <ImageView fitHeight="47.0" fitWidth="64.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/l.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="85.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="219.0" fitWidth="391.0" layoutX="65.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/py.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="-10.0" endY="-73.0" layoutX="473.0" layoutY="260.0" startX="-10.0" startY="133.0" />
+                        <Text layoutX="521.0" layoutY="229.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="تعلم للبرمجة هو الشئ الذي ستري نفسك مميز وستكتسب خبره كبير وستنمي مهاراتك في التفكير والكثير من الأمور الرائعةتعلمك للبرمجة سيتيح لك معرفه كيف تعمل الأدوات التي تستخدمها أيضا ستصتطيع صناعة أدواتك الخاصة التي ستستخدمها في عملك.ما أنصحك بيه بالنسبة للغات البرمجة أين كان تخصص في هذا المجال وهو تعلم لغة بايثون (Python) أيضا تتعلم لغة جو (Go language) ستتعلم الأساسيات الخاصة بهم أختار ما تريده لكن أنصحك بالأثنين بالطبع ليس شئ اجباري بعد ذلك ستبحث عن كيفية استغلال ما تعلمته في مجالك" textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="804.0" layoutY="458.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: BFEAF5;" text="&lt;Back To Welcome Screen">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Operating systems">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                     <children>
+                        <ImageView fitHeight="47.0" fitWidth="64.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/l.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="85.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="219.0" fitWidth="391.0" layoutX="65.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/os1.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="-10.0" endY="-73.0" layoutX="473.0" layoutY="260.0" startX="-10.0" startY="133.0" />
+                        <Text layoutX="521.0" layoutY="229.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="نظام التشغيل هو أهم البرامج التي يتم تشغيلها على جهاز كمبيوتر. فهو يدير كل ما يتعلق بذاكرة الكمبيوتر والعمليات التي تتم به ، وكذلك كل من البرمجيات والمكونات المادية (السوفتوير والهاردوير). كما أنه يتيح لك التواصل مع جهاز الكمبيوتر من دون معرفة كيفية التحدث بلغة الكمبيوتر.هذه  الأنظمة مثل : نظام التشغيل ويندوز (ًWindows) - لينكس (Linux) - ماك (Mac)...........في هذه النقطة المهم هو معرفة كيف يعمل النظام وتعلم كيفية التعامل مع الطرفية الخاصه به (Termnial) الخاصة بنظام Linux" textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="804.0" layoutY="468.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: BFEAF5;" text="&lt;Back To Welcome Screen">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" text="Skills">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: BFEAF5;">
+                     <children>
+                        <ImageView fitHeight="47.0" fitWidth="64.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/l.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="85.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X-Learning">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Line endX="-10.0" endY="-73.0" layoutX="574.0" layoutY="110.0" startX="-10.0" startY="133.0" />
+                        <Text layoutX="574.0" layoutY="75.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="دراسة شهادة CompTIA Security+" textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="804.0" layoutY="468.0" mnemonicParsing="false" onAction="#switchToScene2" style="-fx-background-color: BFEAF5;" text="&lt;Back To Welcome Screen">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <Text layoutX="580.0" layoutY="104.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="تكتسب مهارات حل مشكلات الأمان و تستطيع تقييم الوضع الأمني ​​لبيئة المؤسسة والتوصية بالحلول الأمنية المناسبة وتنفيذها مراقبة وتأمين البيئات الهجينة مثل السحابة والجوال وإنترنت الأشياء العمل بوعي بالقوانين والسياسات المعمول بها ، بما في ذلك مبادئ الحوكمة والمخاطر والامتثال تحديد الأحداث والحوادث الأمنية وتحليلها والاستجابة لها." textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="152.0" layoutY="74.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="شهادة eJPT هي إختصاراً (Junior Penetration Tester)" textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="152.0" layoutY="104.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" مقدمة من شركة elearnSecurity وهي شركة متخصصه في مجال الأمن السيبراني إكتسبت شعبية جيدة في الآونة الأخيرة لإعتمادها على الجانب العملي ، وأسعار إختباراتها مناسبة مقارنة بالشركات الإخرى." textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="338.0" layoutY="290.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Offensive Security Certified Professional (OSCP)" textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="375.0" layoutY="325.0" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Offensive Security Certified Professional (OSCP) هي شهادة قرصنة أخلاقية تقدمها شركة Offensive Security تعلم منهجيات اختبار الاختراق واستخدام الأدوات المضمنة في توزيع Kali Linux. OSCP عبارة عن شهادة اختبار اختراق عملي، تتطلب من حامليها مهاجمة واختراق الأجهزة الحية المختلفة بنجاح في بيئة معملية آمنة. تعتبر أكثر تقنية من شهادات القرصنة الأخلاقية الأخرى،   وهي واحدة من الشهادات القليلة التي تتطلب دليلًا على مهارات اختبار الاختراق العملي." textAlignment="RIGHT" wrappingWidth="397.68479186742843">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+         </panes>
+      </Accordion>
+   </children>
+</AnchorPane>
